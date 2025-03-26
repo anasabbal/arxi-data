@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "name": "All",
+        "parent_id": false
+    },
+    {
+        "id": 6,
+        "name": "Deliveries",
+        "parent_id": [
+            1,
+            "All"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Expenses",
+        "parent_id": [
+            1,
+            "All"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Saleable",
+        "parent_id": [
+            1,
+            "All"
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Events",
+        "parent_id": [
+            36,
+            "All / Saleable"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Barix Artwork",
+        "parent_id": false
+    },
+    {
+        "id": 16,
+        "name": "Barix Board",
+        "parent_id": false
+    },
+    {
+        "id": 15,
+        "name": "Barix Device",
+        "parent_id": false
+    },
+    {
+        "id": 21,
+        "name": "Barix Mechanic",
+        "parent_id": false
+    },
+    {
+        "id": 20,
+        "name": "Barix PCB",
+        "parent_id": false
+    },
+    {
+        "id": 14,
+        "name": "Barix Package",
+        "parent_id": false
+    },
+    {
+        "id": 17,
+        "name": "Barix Raw Material",
+        "parent_id": false
+    },
+    {
+        "id": 30,
+        "name": "Brightstuff Finished Products",
+        "parent_id": false
+    },
+    {
+        "id": 29,
+        "name": "Brightstuff Raw Material",
+        "parent_id": false
+    },
+    {
+        "id": 32,
+        "name": "Brightstuff Tools",
+        "parent_id": false
+    },
+    {
+        "id": 33,
+        "name": "Expenses",
+        "parent_id": false
+    },
+    {
+        "id": 23,
+        "name": "Licenses",
+        "parent_id": false
+    },
+    {
+        "id": 27,
+        "name": "Qiba Finished Products",
+        "parent_id": false
+    },
+    {
+        "id": 31,
+        "name": "Qiba Goods",
+        "parent_id": false
+    },
+    {
+        "id": 28,
+        "name": "Qiba Raw Material",
+        "parent_id": false
+    }
+]

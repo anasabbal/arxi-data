@@ -6,3 +6,49 @@
 2025-03-27 16:31:50,581 [INFO] app.load: Loaded 20 categories
 2025-03-27 16:31:50,843 [INFO] app.load: Loaded 4170 products
 2025-03-27 16:31:51,123 [INFO] app.load: Loaded 5838 contacts
+2025-03-27 16:31:51,919 [INFO] app.log_data_summary: Data initialization completed
+- Categories: 20
+- Products: 4170
+- Contacts: 5838
+- Sales: 711
+2025-03-27 16:31:51,919 [INFO] app.log_data_summary: Data initialization completed
+- Categories: 20
+- Products: 4170
+- Contacts: 5838
+- Sales: 711
+2025-03-27 16:31:51,920 [INFO] app.create_app: Data initialization complete.
+2025-03-27 16:31:51,921 [INFO] app.<module>: Starting Flask server.
+2025-03-27 16:31:51,971 [INFO] werkzeug._log: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.242:5000
+2025-03-27 16:31:51,972 [INFO] werkzeug._log: [33mPress CTRL+C to quit[0m
+2025-03-27 16:31:51,975 [INFO] werkzeug._log:  * Restarting with stat
+2025-03-27 16:31:52,364 [INFO] app.create_app: Logging is configured.
+2025-03-27 16:31:52,364 [INFO] app.create_app: Flask app initialized with config: <class 'config.Config'>
+2025-03-27 16:31:52,368 [INFO] app.create_app: API blueprint registered.
+2025-03-27 16:31:52,368 [INFO] app.create_app: Initializing data...
+2025-03-27 16:31:52,369 [INFO] app.initialize_data: Starting data initialization
+2025-03-27 16:31:52,370 [INFO] app.load: Loaded 20 categories
+2025-03-27 16:31:52,614 [INFO] app.load: Loaded 4170 products
+2025-03-27 16:31:52,876 [INFO] app.load: Loaded 5838 contacts
+2025-03-27 16:31:53,594 [INFO] app.log_data_summary: Data initialization completed
+- Categories: 20
+- Products: 4170
+- Contacts: 5838
+- Sales: 711
+2025-03-27 16:31:53,594 [INFO] app.log_data_summary: Data initialization completed
+- Categories: 20
+- Products: 4170
+- Contacts: 5838
+- Sales: 711
+2025-03-27 16:31:53,595 [INFO] app.create_app: Data initialization complete.
+2025-03-27 16:31:53,595 [INFO] app.<module>: Starting Flask server.
+2025-03-27 16:31:53,617 [WARNING] werkzeug._log:  * Debugger is active!
+2025-03-27 16:31:53,622 [INFO] werkzeug._log:  * Debugger PIN: 234-334-973
+2025-03-27 16:31:55,121 [INFO] werkzeug._log: 127.0.0.1 - - [27/Mar/2025 16:31:55] "GET /api/most_sold_by_category HTTP/1.1" 200 -
+2025-03-27 16:31:56,640 [INFO] flask_caching.decorated_function: Cache used for key: /api/most_sold_by_categorybcd8b0c2eb1fce714eab6cef0d771acc
+2025-03-27 16:31:56,641 [INFO] werkzeug._log: 127.0.0.1 - - [27/Mar/2025 16:31:56] "GET /api/most_sold_by_category HTTP/1.1" 200 -
+2025-03-27 16:32:08,703 [INFO] werkzeug._log: 127.0.0.1 - - [27/Mar/2025 16:32:08] "GET /api/most_sold_by_country HTTP/1.1" 200 -
+2025-03-27 16:32:18,384 [INFO] app.get_top_client: Top client determined: 413
+2025-03-27 16:32:18,385 [INFO] werkzeug._log: 127.0.0.1 - - [27/Mar/2025 16:32:18] "GET /api/top_client HTTP/1.1" 200 -

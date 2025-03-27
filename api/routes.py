@@ -2,11 +2,7 @@ from flask import Blueprint, jsonify, current_app
 from services.data_loader import data_loader_instance
 from services.exceptions import DataLoaderException
 from flask_caching import Cache
-from collections import defaultdict
-import logging
-
-
-
+from config import Config
 
 
 
@@ -24,8 +20,8 @@ def configure_cache(state):
     Sets the cache type to SimpleCache and the default timeout to 300 seconds.
     """
     cache.init_app(state.app, config={
-        'CACHE_TYPE': 'SimpleCache',
-        'CACHE_DEFAULT_TIMEOUT': 300
+        'CACHE_TYPE': Config.CACHE_TYPE,
+        'CACHE_DEFAULT_TIMEOUT': Config.CACHE_DEFAULT_TIMEOUT
     })
 
 # validate if essential data is loaded
